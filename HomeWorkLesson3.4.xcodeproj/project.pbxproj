@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C49C42627D6254A009F3080 /* HomeWorkLesson3_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C42527D6254A009F3080 /* HomeWorkLesson3_4App.swift */; };
 		9C49C42827D6254A009F3080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C42727D6254A009F3080 /* ContentView.swift */; };
 		9C49C42A27D6254B009F3080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49C42927D6254B009F3080 /* Assets.xcassets */; };
 		9C49C42D27D6254B009F3080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C49C42C27D6254B009F3080 /* Preview Assets.xcassets */; };
+		9C49C45427D62714009F3080 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C45327D62714009F3080 /* SliderView.swift */; };
+		9C49C45627D62DFA009F3080 /* SliderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C45527D62DFA009F3080 /* SliderScreen.swift */; };
+		9C49C45927D648ED009F3080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C45727D648ED009F3080 /* SceneDelegate.swift */; };
+		9C49C45A27D648ED009F3080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C49C45827D648ED009F3080 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C49C42227D6254A009F3080 /* HomeWorkLesson3.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkLesson3.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C49C42527D6254A009F3080 /* HomeWorkLesson3_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkLesson3_4App.swift; sourceTree = "<group>"; };
 		9C49C42727D6254A009F3080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C49C42927D6254B009F3080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C49C42C27D6254B009F3080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C49C45327D62714009F3080 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		9C49C45527D62DFA009F3080 /* SliderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderScreen.swift; sourceTree = "<group>"; };
+		9C49C45727D648ED009F3080 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C49C45827D648ED009F3080 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		9C49C42427D6254A009F3080 /* HomeWorkLesson3.4 */ = {
 			isa = PBXGroup;
 			children = (
-				9C49C42527D6254A009F3080 /* HomeWorkLesson3_4App.swift */,
+				9C49C45827D648ED009F3080 /* AppDelegate.swift */,
+				9C49C45727D648ED009F3080 /* SceneDelegate.swift */,
 				9C49C42727D6254A009F3080 /* ContentView.swift */,
+				9C49C45327D62714009F3080 /* SliderView.swift */,
+				9C49C45527D62DFA009F3080 /* SliderScreen.swift */,
 				9C49C42927D6254B009F3080 /* Assets.xcassets */,
 				9C49C42B27D6254B009F3080 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C49C45A27D648ED009F3080 /* AppDelegate.swift in Sources */,
+				9C49C45927D648ED009F3080 /* SceneDelegate.swift in Sources */,
+				9C49C45627D62DFA009F3080 /* SliderScreen.swift in Sources */,
+				9C49C45427D62714009F3080 /* SliderView.swift in Sources */,
 				9C49C42827D6254A009F3080 /* ContentView.swift in Sources */,
-				9C49C42627D6254A009F3080 /* HomeWorkLesson3_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
